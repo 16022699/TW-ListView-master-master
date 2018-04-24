@@ -49,6 +49,7 @@ public class SecondActivity extends AppCompatActivity {
         aa = new ModuleAdapter(this, R.layout.row, modules);
         lv.setAdapter(aa);
 
+        tvYear.setText(year);
 
     }
 
